@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5549" started-at="2020-08-16T23:58:25Z" finished-at="2020-08-16T23:58:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5549" started-at="2020-08-16T23:58:25Z" finished-at="2020-08-16T23:58:31Z">
+      <class name="com.MockAPI.QA.WireMockCarProject">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.MockAPI.QA.WireMockCarProject@58ceff1]" name="initialize" is-config="true" duration-ms="1686" started-at="2020-08-16T16:58:24Z" finished-at="2020-08-16T16:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getResponse()[pri:0, instance:com.MockAPI.QA.WireMockCarProject@58ceff1]" name="getResponse" duration-ms="3032" started-at="2020-08-16T16:58:25Z" finished-at="2020-08-16T16:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponse -->
+        <test-method status="PASS" signature="CountBlueCars()[pri:0, instance:com.MockAPI.QA.WireMockCarProject@58ceff1]" name="CountBlueCars" duration-ms="1349" started-at="2020-08-16T16:58:29Z" finished-at="2020-08-16T16:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CountBlueCars -->
+        <test-method status="PASS" signature="qALowestRentalCost()[pri:0, instance:com.MockAPI.QA.WireMockCarProject@58ceff1]" name="qALowestRentalCost" duration-ms="313" started-at="2020-08-16T16:58:30Z" finished-at="2020-08-16T16:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qALowestRentalCost -->
+        <test-method status="PASS" signature="qBLowestRentalCost()[pri:0, instance:com.MockAPI.QA.WireMockCarProject@58ceff1]" name="qBLowestRentalCost" duration-ms="320" started-at="2020-08-16T16:58:30Z" finished-at="2020-08-16T16:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qBLowestRentalCost -->
+        <test-method status="PASS" signature="highRevenueCar()[pri:0, instance:com.MockAPI.QA.WireMockCarProject@58ceff1]" name="highRevenueCar" duration-ms="463" started-at="2020-08-16T16:58:31Z" finished-at="2020-08-16T16:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highRevenueCar -->
+        <test-method status="FAIL" signature="stopServer()[pri:0, instance:com.MockAPI.QA.WireMockCarProject@58ceff1]" name="stopServer" is-config="true" duration-ms="0" started-at="2020-08-16T16:58:31Z" finished-at="2020-08-16T16:58:31Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.MockAPI.QA.WireMockCarProject.stopServer(WireMockCarProject.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:521)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- com.MockAPI.QA.WireMockCarProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
